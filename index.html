@@ -1,14 +1,161 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>YOUR SITE TITLE</title>
-  <-- Add some style to your site, see http://getbootstrap.com for details -->
-  <link rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-</head>
-<body>
-  <h1>YOUR SITE TITLE</h1>
-  <p>Your text blahblahbhalbha</p>
-  <p>Another paragraph!  Maybe more text!</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume</title>
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="css/main.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="img/avatar.jpg" alt="avatar">
+            </div>
+            <div id="text-header">
+              <h1>Hello,<br> my name is <span>James</span><sup>22yo</sup> and this is my resume.</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2>About Me</h2>
+            <p></p>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2>Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2010</div>
+                <div class="description pull-right">
+                  <h3>Graduated High School</h3>
+                  <p>Graduated from Merrimack High School in Merrimack, NH.</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2015</div>
+                <div class="description pull-right">
+                  <h3>Graduated from RIT</h3>
+                  <p>Graduated from Rochester Institute of Technology with a BS in Software Engineering.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- EXPERIENCES -->
+          <div class="box">
+            <h2>Experiences</h2>
+            <div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">WITR 89.7-FM</div>
+                <div class="year">2010-2015</div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">Production Director</div>
+                <div class="description">Responsible for production of on air imaging, underwriting, and management of production team. Also responsible for audio engineering and production of Rochester Sessions.</div>
+              </div>
+            </div>
+            <div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">Ortho Clinical Diagnostics</div>
+                <div class="year">May 2014 - August 2014</div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">Intern - Software Verification and Validation</div>
+                <div class="description">Writing and managing test procedures in HP Quality Center and IBM Rational ReqPro. Researched and presented new testing techniques to be added to testing approach.</div>
+              </div>
+            </div>
+			<div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">Symantec</div>
+                <div class="year">March 2013 - August 2013</div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">Intern - Consumer Online Services</div>
+                <div class="description">Coding and developing various tools for developers such as network monitors, installation scripts and packages, and testing suites using Java, C#, Bash, XML, andAnt. Documentation of process and other debug information.</div>
+              </div>
+            </div>
+			<div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">Cellular Specialties, Inc.</div>
+                <div class="year">May 2011 - August 2011, May 2012 - August 2012</div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">Software Engineer - Intern</div>
+                <div class="description">Updating wireless repeater web GUIs from TCL to Java with GXT.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2>Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">603-913-4944</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right">jtf8647@rit.edu</div>
+            </div>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2>Skills</h2>
+            <div class="skills">
+              <div class="item-skills" data-percent="0.80">Java</div>
+              <div class="item-skills" data-percent="0.75">C#</div>
+              <div class="item-skills" data-percent="0.60">C</div>
+              <div class="item-skills" data-percent="0.50">Python</div>
+              <div class="item-skills" data-percent="0.25">Ruby</div>
+			  <div class="item-skills" data-percent="0.25">PHP</div>
+			  <div class="item-skills" data-percent="0.50">HTML</div>
+			  <div class="item-skills" data-percent="0.25">Javascript</div>
+			  <div class="item-skills" data-percent="0.25">jQuery</div>
+			  <div class="item-skills" data-percent="0.25">CSS</div>
+              <div class="skills-legend clearfix">
+                <div class="legend-left legend">Beginner</div>
+                <div class="legend-left legend"><span>Proficient</span></div>
+                <div class="legend-right legend"><span>Expert</span></div>
+                <div class="legend-right legend">Master</div>
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box">
+            <h2>Languages</h2>
+            <div id="language-skills">
+              <div class="skill">Polish <div class="icons pull-right"><div style="width: 80%;" class="icons-red"></div></div></div>
+              <div class="skill">English <div class="icons pull-right"><div style="width: 60%;" class="icons-red"></div></div></div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2>Hobbies</h2>
+            <div class="hobby">Photography</div>
+            <div class="hobby">Fitness</div>
+            <div class="hobby">Programming</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JQUERY -->
+    <script src="js/jquery.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
